@@ -1,0 +1,111 @@
+/*----------------------------------------------------------------*/
+/*Footer*/
+@media (max-width: 1199px) {
+  footer .top_footer .quick_contact .nav li a {
+    padding: 0 33.5px;
+  }
+  footer .top_footer .beInContact .subscribe_form .form-inline .form-group .input-group {
+    width: 265px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 991px) {
+  footer .top_footer .quick_contact {
+    margin-bottom: 40px;
+  }
+  footer .top_footer .quick_contact .nav li a {
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 29px;
+  }
+  footer .top_footer .quick_contact .nav li a i {
+    font-size: 22px;
+    margin-right: 10px;
+    line-height: 40px;
+  }
+  footer .top_footer .shortKnowledge p {
+    line-height: 24px;
+  }
+  footer .top_footer .shortKnowledge .product .product_list li {
+    width: 50%;
+    margin-top: 15px;
+  }
+  footer .top_footer .shortKnowledge .product .product_list li:nth-child(3) {
+    margin-top: 15px;
+  }
+  footer .top_footer .beInContact {
+    margin-bottom: 30px;
+  }
+  footer .top_footer .beInContact .country_select {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer .top_footer .beInContact .social_icos {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: none;
+  }
+  footer .top_footer .beInContact .subscribe_form {
+    border-top: 1px solid #1a2140;
+    padding-left: 0;
+    padding-top: 10px;
+    width: 100%;
+  }
+  footer .top_footer .beInContact .subscribe_form .form-inline .form-group {
+    width: 100%;
+  }
+  footer .top_footer .beInContact .subscribe_form .form-inline .form-group label {
+    width: 125px;
+  }
+  footer .top_footer .beInContact .subscribe_form .form-inline .form-group .input-group {
+    width: calc(100% - 125px);
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  footer .top_footer .quick_contact {
+    padding: 10px 0;
+  }
+  footer .top_footer .quick_contact .nav li {
+    display: block;
+    float: none;
+  }
+  footer .top_footer .quick_contact .nav li + li {
+    border: none;
+  }
+  footer .top_footer .quick_contact .nav li a {
+    padding: 0 20px;
+  }
+  footer .top_footer .shortKnowledge .product {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 550px) {
+  footer .top_footer .beInContact .country_select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #1a2140;
+  }
+  footer .top_footer .beInContact .social_icos {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  footer .top_footer .shortKnowledge .product .product_list li {
+    width: 100%;
+  }
+  footer .top_footer .shortKnowledge .product .product_list li:nth-child(2),
+  footer .top_footer .shortKnowledge .product .product_list li:nth-child(3) {
+    margin-top: 15px;
+  }
+  footer .top_footer .beInContact .subscribe_form .form-inline .form-group label {
+    width: 100%;
+  }
+  footer .top_footer .beInContact .subscribe_form .form-inline .form-group .input-group {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+/*----------------------------------------------------------------*/
